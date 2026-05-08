@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onUnmounted, reactive } from 'vue'
 
 // ===== 常數 =====
-const STORAGE_KEY = 'salesTrackerData_v1'
+const STORAGE_KEY = 'salesTrackerData_v2'
 const DEFAULT_ITEMS = [
   { name: '西瓜冰棒', price: 60 },
   { name: '哈密瓜冰棒', price: 60 },
