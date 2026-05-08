@@ -4,10 +4,16 @@ import { ref, computed, onMounted, onUnmounted, reactive } from 'vue'
 // ===== 常數 =====
 const STORAGE_KEY = 'salesTrackerData_v1'
 const DEFAULT_ITEMS = [
-  { name: '咖啡', price: 80 },
-  { name: '紅茶', price: 50 },
-  { name: '蛋糕', price: 120 },
-  { name: '三明治', price: 90 },
+  { name: '西瓜冰棒', price: 60 },
+  { name: '哈密瓜冰棒', price: 60 },
+  { name: '百香果冰棒', price: 60 },
+  { name: '藍莓優格冰棒', price: 80 },
+  { name: '草莓牛奶冰棒', price: 80 },
+  { name: '葡萄冰棒', price: 80 },
+  { name: '榴槤冰棒', price: 100 },
+  { name: '客製化-野花園', price: 100 },
+  { name: '客製化-花綻冰果', price: 100 },
+  { name: '客製化-芒果芳香', price: 100 },
 ]
 
 // ===== 工具 =====
